@@ -1,0 +1,46 @@
+[package]
+name = "galho-virtio-net"
+description = "brasa virtio-net driver — layer-2 packet I/O over a typed seiva protocol"
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.89.0"
+license = "MIT"
+homepage = "https://github.com/pleme-io/galho-virtio-net"
+repository = "https://github.com/pleme-io/galho-virtio-net"
+authors = ["pleme-io"]
+publish = false
+
+[lib]
+name = "galho_virtio_net"
+path = "src/lib.rs"
+
+[features]
+default = []
+testing = ["std"]
+std = []
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+missing_errors_doc = "allow"
+module_name_repetitions = "allow"
+
+[dependencies]
+galho = { git = "https://github.com/pleme-io/brasa" }
+casca = { git = "https://github.com/pleme-io/brasa", features = ["userspace"] }
+seiva = { git = "https://github.com/pleme-io/brasa" }
+raiz  = { git = "https://github.com/pleme-io/brasa" }
+folha = { git = "https://github.com/pleme-io/brasa", features = ["rt"] }
+
+zerocopy = { version = "0.8", default-features = false, features = ["derive"] }
+heapless = { version = "0.8", default-features = false }
+bitflags = { version = "2", default-features = false }
+
+[profile.release]
+codegen-units = 1
+lto           = true
+opt-level     = "z"
+strip         = true
+panic         = "abort"
+
+[profile.dev]
+panic = "abort"
