@@ -1070,6 +1070,15 @@
           "uses_default_features": true,
           "optional": false,
           "target": null
+        },
+        {
+          "name": "zerocopy_derive",
+          "package_key": "zerocopy-derive-0.8.48",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(any())"
         }
       ],
       "runtime_dependencies": [
@@ -1081,11 +1090,24 @@
           "uses_default_features": true,
           "optional": false,
           "target": null
+        },
+        {
+          "name": "zerocopy_derive",
+          "package_key": "zerocopy-derive-0.8.48",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": true,
+          "optional": false,
+          "target": "cfg(any())"
         }
       ],
       "build_dependencies": [],
       "crate_renames": {
         "zerocopy-derive": [
+          {
+            "version": "0.8.48",
+            "rename": "zerocopy_derive"
+          },
           {
             "version": "0.8.48",
             "rename": "zerocopy_derive"
