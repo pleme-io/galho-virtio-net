@@ -4,3 +4,4 @@
 Cargo.lock
 .direnv
 .DS_Store
+Cargo.build-spec.json
