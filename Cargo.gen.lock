@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "cargo_lock_sha256": "06ec091d249df6fac99740c00e2ba2da9f288aa32ba077e03e675541855195ae",
+  "target_resolves": {
+    "base": {
+      "bitflags-2.11.1": {
+        "runtime_dependencies": [],
+        "build_dependencies": [],
+        "features": []
+      },
+      "byteorder-1.5.0": {
+        "runtime_dependencies": [],
+        "build_dependencies": [],
+        "features": []
+      },
+      "casca-0.0.1": {
+        "runtime_dependencies": [
+          {
+            "name": "raiz",
+            "package_key": "raiz-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "seiva",
+            "package_key": "seiva-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "zerocopy",
+            "package_key": "zerocopy-0.8.48",
+            "kind": "normal",
+            "features": [
+              "derive"
+            ],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "default",
+          "userspace"
+        ]
+      },
+      "folha-0.0.1": {
+        "runtime_dependencies": [
+          {
+            "name": "casca",
+            "package_key": "casca-0.0.1",
+            "kind": "normal",
+            "features": [
+              "userspace"
+            ],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "galho",
+            "package_key": "galho-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "heapless",
+            "package_key": "heapless-0.8.0",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "raiz",
+            "package_key": "raiz-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "seiva",
+            "package_key": "seiva-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "default",
+          "rt"
+        ]
+      },
+      "galho-0.0.1": {
+        "runtime_dependencies": [
+          {
+            "name": "bitflags",
+            "package_key": "bitflags-2.11.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "casca",
+            "package_key": "casca-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "heapless",
+            "package_key": "heapless-0.8.0",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "raiz",
+            "package_key": "raiz-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "seiva",
+            "package_key": "seiva-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "default"
+        ]
+      },
+      "galho-virtio-net-0.0.1": {
+        "runtime_dependencies": [
+          {
+            "name": "bitflags",
+            "package_key": "bitflags-2.11.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "casca",
+            "package_key": "casca-0.0.1",
+            "kind": "normal",
+            "features": [
+              "userspace"
+            ],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "folha",
+            "package_key": "folha-0.0.1",
+            "kind": "normal",
+            "features": [
+              "rt"
+            ],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "galho",
+            "package_key": "galho-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "heapless",
+            "package_key": "heapless-0.8.0",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "raiz",
+            "package_key": "raiz-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "seiva",
+            "package_key": "seiva-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "zerocopy",
+            "package_key": "zerocopy-0.8.48",
+            "kind": "normal",
+            "features": [
+              "derive"
+            ],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "default"
+        ]
+      },
+      "hash32-0.3.1": {
+        "runtime_dependencies": [
+          {
+            "name": "byteorder",
+            "package_key": "byteorder-1.5.0",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": []
+      },
+      "heapless-0.8.0": {
+        "runtime_dependencies": [
+          {
+            "name": "hash32",
+            "package_key": "hash32-0.3.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "stable_deref_trait",
+            "package_key": "stable_deref_trait-1.2.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": []
+      },
+      "proc-macro2-1.0.106": {
+        "runtime_dependencies": [
+          {
+            "name": "unicode_ident",
+            "package_key": "unicode-ident-1.0.24",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "default",
+          "proc-macro"
+        ]
+      },
+      "quote-1.0.45": {
+        "runtime_dependencies": [
+          {
+            "name": "proc_macro2",
+            "package_key": "proc-macro2-1.0.106",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "default",
+          "proc-macro"
+        ]
+      },
+      "raiz-0.0.1": {
+        "runtime_dependencies": [
+          {
+            "name": "bitflags",
+            "package_key": "bitflags-2.11.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "heapless",
+            "package_key": "heapless-0.8.0",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "zerocopy",
+            "package_key": "zerocopy-0.8.48",
+            "kind": "normal",
+            "features": [
+              "derive"
+            ],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "default"
+        ]
+      },
+      "seiva-0.0.1": {
+        "runtime_dependencies": [
+          {
+            "name": "heapless",
+            "package_key": "heapless-0.8.0",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "raiz",
+            "package_key": "raiz-0.0.1",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "zerocopy",
+            "package_key": "zerocopy-0.8.48",
+            "kind": "normal",
+            "features": [
+              "derive"
+            ],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "default"
+        ]
+      },
+      "stable_deref_trait-1.2.1": {
+        "runtime_dependencies": [],
+        "build_dependencies": [],
+        "features": []
+      },
+      "syn-2.0.117": {
+        "runtime_dependencies": [
+          {
+            "name": "proc_macro2",
+            "package_key": "proc-macro2-1.0.106",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "quote",
+            "package_key": "quote-1.0.45",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": true,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "unicode_ident",
+            "package_key": "unicode-ident-1.0.24",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "clone-impls",
+          "default",
+          "derive",
+          "full",
+          "parsing",
+          "printing",
+          "proc-macro"
+        ]
+      },
+      "unicode-ident-1.0.24": {
+        "runtime_dependencies": [],
+        "build_dependencies": [],
+        "features": []
+      },
+      "zerocopy-0.8.48": {
+        "runtime_dependencies": [
+          {
+            "name": "zerocopy_derive",
+            "package_key": "zerocopy-derive-0.8.48",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "host"
+          },
+          {
+            "name": "zerocopy_derive",
+            "package_key": "zerocopy-derive-0.8.48",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": "cfg(any())",
+            "tree": "host"
+          }
+        ],
+        "build_dependencies": [],
+        "features": [
+          "derive",
+          "zerocopy-derive"
+        ]
+      },
+      "zerocopy-derive-0.8.48": {
+        "runtime_dependencies": [
+          {
+            "name": "proc_macro2",
+            "package_key": "proc-macro2-1.0.106",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "quote",
+            "package_key": "quote-1.0.45",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "syn",
+            "package_key": "syn-2.0.117",
+            "kind": "normal",
+            "features": [
+              "full"
+            ],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": []
+      }
+    },
+    "targets": {
+      "aarch64-apple-darwin": {
+        "overrides": {}
+      },
+      "x86_64-apple-darwin": {
+        "overrides": {}
+      },
+      "x86_64-unknown-linux-gnu": {
+        "overrides": {}
+      },
+      "x86_64-unknown-linux-musl": {
+        "overrides": {}
+      },
+      "aarch64-unknown-linux-gnu": {
+        "overrides": {}
+      },
+      "aarch64-unknown-linux-musl": {
+        "overrides": {}
+      }
+    }
+  },
+  "per_crate": {
+    "bitflags-2.11.1": {
+      "edition": "2021"
+    },
+    "byteorder-1.5.0": {
+      "edition": "2021"
+    },
+    "casca-0.0.1": {
+      "edition": "2024"
+    },
+    "folha-0.0.1": {
+      "edition": "2024"
+    },
+    "galho-0.0.1": {
+      "edition": "2024"
+    },
+    "galho-virtio-net-0.0.1": {
+      "edition": "2024",
+      "lib_target": {
+        "name": "galho_virtio_net",
+        "path": "src/lib.rs"
+      }
+    },
+    "hash32-0.3.1": {
+      "edition": "2015"
+    },
+    "heapless-0.8.0": {
+      "edition": "2021",
+      "build_script": "build.rs"
+    },
+    "proc-macro2-1.0.106": {
+      "edition": "2021",
+      "build_script": "build.rs"
+    },
+    "quote-1.0.45": {
+      "edition": "2021",
+      "build_script": "build.rs"
+    },
+    "raiz-0.0.1": {
+      "edition": "2024"
+    },
+    "seiva-0.0.1": {
+      "edition": "2024"
+    },
+    "stable_deref_trait-1.2.1": {
+      "edition": "2015"
+    },
+    "syn-2.0.117": {
+      "edition": "2021"
+    },
+    "unicode-ident-1.0.24": {
+      "edition": "2021"
+    },
+    "zerocopy-0.8.48": {
+      "edition": "2021",
+      "build_script": "build.rs"
+    },
+    "zerocopy-derive-0.8.48": {
+      "edition": "2021",
+      "proc_macro": true
+    }
+  },
+  "git_nar_sha256": {
+    "casca-0.0.1": "sha256-1SWdqh1filNzP8eQJpH6r5hdypDlSYToAvS4NfayyL4=",
+    "folha-0.0.1": "sha256-1SWdqh1filNzP8eQJpH6r5hdypDlSYToAvS4NfayyL4=",
+    "galho-0.0.1": "sha256-1SWdqh1filNzP8eQJpH6r5hdypDlSYToAvS4NfayyL4=",
+    "raiz-0.0.1": "sha256-1SWdqh1filNzP8eQJpH6r5hdypDlSYToAvS4NfayyL4=",
+    "seiva-0.0.1": "sha256-1SWdqh1filNzP8eQJpH6r5hdypDlSYToAvS4NfayyL4="
+  },
+  "flake_metadata": {}
+}
