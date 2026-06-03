@@ -17,7 +17,7 @@ checksum = "1fd0f2584146f6f2ef48085050886acf353beff7305ebd1ae69500e27c67f64b"
 [[package]]
 name = "casca"
 version = "0.0.1"
-source = "git+https://github.com/pleme-io/brasa#e98392c17e223118db017768514117a359cc240c"
+source = "git+https://github.com/pleme-io/brasa#04175f7404ba539a69ed60b0b596ec9b2f6c56bf"
 dependencies = [
  "raiz",
  "seiva",
@@ -27,7 +27,7 @@ dependencies = [
 [[package]]
 name = "folha"
 version = "0.0.1"
-source = "git+https://github.com/pleme-io/brasa#e98392c17e223118db017768514117a359cc240c"
+source = "git+https://github.com/pleme-io/brasa#04175f7404ba539a69ed60b0b596ec9b2f6c56bf"
 dependencies = [
  "casca",
  "galho",
@@ -39,7 +39,7 @@ dependencies = [
 [[package]]
 name = "galho"
 version = "0.0.1"
-source = "git+https://github.com/pleme-io/brasa#e98392c17e223118db017768514117a359cc240c"
+source = "git+https://github.com/pleme-io/brasa#04175f7404ba539a69ed60b0b596ec9b2f6c56bf"
 dependencies = [
  "bitflags",
  "casca",
@@ -102,7 +102,7 @@ dependencies = [
 [[package]]
 name = "raiz"
 version = "0.0.1"
-source = "git+https://github.com/pleme-io/brasa#e98392c17e223118db017768514117a359cc240c"
+source = "git+https://github.com/pleme-io/brasa#04175f7404ba539a69ed60b0b596ec9b2f6c56bf"
 dependencies = [
  "bitflags",
  "heapless",
@@ -112,7 +112,7 @@ dependencies = [
 [[package]]
 name = "seiva"
 version = "0.0.1"
-source = "git+https://github.com/pleme-io/brasa#e98392c17e223118db017768514117a359cc240c"
+source = "git+https://github.com/pleme-io/brasa#04175f7404ba539a69ed60b0b596ec9b2f6c56bf"
 dependencies = [
  "heapless",
  "raiz",
